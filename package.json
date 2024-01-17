@@ -1,0 +1,27 @@
+{
+  "name": "node-course",
+  "version": "1.0.0",
+  "description": "Udemy course section1 - bases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "start:dev": "echo 'Hola mundo desde dev' ",
+    "start:stag": "echo 'Hola mundo desde dev' "
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "get-age": "^1.0.1",
+    "uuid": "^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "juanp288"
+  },
+  "author": "Juan Pablo Victoria",
+  "license": "ISC"
+}
